@@ -13,7 +13,6 @@ end
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
-  gem 'haml-rails'
 end
 
 group :test do
