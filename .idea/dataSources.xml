@@ -1,5 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" compressed="false" hash="3653047377" />
+  <component name="DataSourceManagerImpl" format="xml" hash="3653047377">
+    <data-source source="LOCAL" name="Rails rails_microblog: development" product="PostgreSQL" version="9.2.4" jdbc-version="3.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC3g (build 1002)" uuid="73786949-83f0-4445-a5b0-3e7533cd1a90">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/rails_microblog_devel</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfcddfcbdfc4dfcfdfdddfcbdf9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails rails_microblog: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="d0d5e759-e737-44d1-b95d-3ffcc3dd00d8">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/rails_microblog</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfcddfcbdfc4dfcfdfdddfcbdf9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails rails_microblog: test" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="35668463-e9b8-4447-84a5-753d21106060">
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1/rails_microblog_test</jdbc-url>
+      <user-name>postgres</user-name>
+      <user-password>dfcddfcbdfc4dfcfdfdddfcbdf9e</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-driver-license.txt</url>
+        </library>
+        <library>
+          <url>file://$USER_HOME$/.RubyMine50/config/jdbc-drivers/postgresql-9.2-1002.jdbc3.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
 </project>
 
