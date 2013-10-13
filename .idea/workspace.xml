@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="acb043cf-0418-4cd1-bbed-8617a397da41" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rails_microblog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -10,7 +12,7 @@
     <file path="/database.yml" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381166296852" ignored="false" />
     <file path="/application.html.erb" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381339141694" ignored="false" />
     <file path="/home.html.erb" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381176926095" ignored="false" />
-    <file path="/Gemfile" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681498802" ignored="false" />
+    <file path="/Gemfile" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681802005" ignored="false" />
     <file path="/Guardfile" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381169031168" ignored="false" />
     <file path="/application.rb" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381171529689" ignored="false" />
     <file path="/custom.css.scss" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381605494405" ignored="false" />
@@ -39,9 +41,6 @@
     <file path="/application.html.haml" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381680808253" ignored="false" />
     <file path="/_flash_message.html.haml" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681064089" ignored="false" />
     <file path="$PROJECT_DIR$/app/views/users/new.html.haml" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681490898" ignored="false" />
-    <file path="$PROJECT_DIR$/config/initializers/simple_form_bootstrap.rb" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681490898" ignored="false" />
-    <file path="$PROJECT_DIR$/config/initializers/simple_form.rb" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681490898" ignored="false" />
-    <file path="$PROJECT_DIR$/config/environments/test.rb" changelist="acb043cf-0418-4cd1-bbed-8617a397da41" time="1381681490898" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +113,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="production.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="2" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -140,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/spec/factories.rb" />
         <option value="$PROJECT_DIR$/config/environments/test.rb" />
         <option value="$PROJECT_DIR$/app/helpers/users_helper.rb" />
         <option value="$PROJECT_DIR$/app/views/users/show.html.erb" />
@@ -155,6 +162,7 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/shared/_flash_message.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -222,6 +230,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="rails_microblog" />
               <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_microblog" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_microblog" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_microblog" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_microblog" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Config" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.ConfigFolderNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.folders.FolderSubFolderNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -749,6 +789,13 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="50" selection-start="252" selection-end="252" vertical-scroll-proportion="0.35051546">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="2" selection-start="1770" selection-end="1770" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
