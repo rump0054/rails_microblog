@@ -66,6 +66,13 @@ GEM
       railties (>= 3.0.0)
     ffi (1.9.0)
     ffi (1.9.0-x86-mingw32)
+    haml (4.0.3)
+      tilt
+    haml-rails (0.4)
+      actionpack (>= 3.1, < 4.1)
+      activesupport (>= 3.1, < 4.1)
+      haml (>= 3.1, < 4.1)
+      railties (>= 3.1, < 4.1)
     high_voltage (2.0.0)
     hike (1.2.3)
     i18n (0.6.5)
@@ -140,6 +147,9 @@ GEM
       multi_json (~> 1.0)
       rubyzip (< 1.0.0)
       websocket (~> 1.0.4)
+    simple_form (3.0.0)
+      actionpack (>= 4.0.0, < 4.1)
+      activemodel (>= 4.0.0, < 4.1)
     spork (1.0.0rc4)
     spork (1.0.0rc4-x86-mingw32)
       win32-process
@@ -186,6 +196,7 @@ DEPENDENCIES
   coffee-rails (= 4.0.0)
   email_validator
   factory_girl_rails (= 4.2.1)
+  haml-rails
   high_voltage
   jbuilder (= 1.0.2)
   jquery-rails (= 3.0.4)
@@ -197,6 +208,7 @@ DEPENDENCIES
   sass-rails (= 4.0.0)
   sdoc (= 0.3.20)
   selenium-webdriver (= 2.35.1)
+  simple_form
   spork-rails
   turbolinks (= 1.1.1)
   uglifier (= 2.1.1)
