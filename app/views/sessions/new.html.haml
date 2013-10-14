@@ -1,0 +1,11 @@
+= provide(:title, "Sign in")
+%h1 Sign in
+
+.row
+  .span6.offset3
+    = simple_form_for(:session, url: sessions_path) do |f|
+      = f.input :email, error: false
+      = f.input :password, error: false
+      = f.button :submit, value: "Sign in", class: 'btn btn-primary'
+
+    %p New user? #{link_to('Sign up now!', signup_path)}
