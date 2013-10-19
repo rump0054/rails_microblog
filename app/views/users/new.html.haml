@@ -3,10 +3,4 @@
 
 .row
   .span6.offset3
-    = simple_form_for @user, class: 'form-horizontal' do |f|
-      = render 'shared/error_message'
-      = f.input :name, error: false
-      = f.input :email, error: false
-      = f.input :password, error: false
-      = f.input :password_confirmation, required: true, label: 'Confirmation', error: false
-      = f.button :submit, value: "Create my account", class: 'btn btn-primary'
+    = render 'users/form'
